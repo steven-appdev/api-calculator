@@ -36,7 +36,7 @@ def calculate():
         return jsonify(response=data)
         
     except Exception as e:
-        return jsonify(response="1234! There was some problem with the query! Please try again!"),400
+        return jsonify(response="Opps! There was some problem with the query! Please try again!"),400
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=105)
